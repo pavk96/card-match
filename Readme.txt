@@ -6,4 +6,6 @@
 	
 	But here you can't find them.
 
-	Because it's my privacy haha 	--*/
+	Because it's my privacy haha
+	
+	So you could see color card--*/
