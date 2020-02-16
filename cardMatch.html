@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <title>짝 맞추기</title>
+    <style>
+      .card{/*CSS로 할 수 있는것은 CSS로 최대한*/
+        display: inline-block;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        width: 200px;
+        height: 250px;
+
+      }
+      .card-inner{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.5s;/*카드를 뒤집는 효과 시간*/
+        transform-style:preserve-3d;
+      }
+      .card.flipped .card-inner{/*뛰어쓰기 중요*/
+        transform:rotateY(180deg);
+      }
+      .card-front{
+        background-image: url("C:/Users/user/Desktop/web/이미지/f.jpg");
+      }
+      .card-front, .card-back{/*콤마는 오타가 아님*/
+        position:absolute;/*카드 앞뒤를 겹칠수있게하는코드*/
+        width:100%;
+        height:100%;
+        border: 1px solid black;
+        backface-visibility:hidden;
+      }
+      .card-back{
+        transform:rotateY(180deg);/*Y축을 기준으로 돌아가는모양*/
+
+
+      }
+
+    </style>
+  </head>
+  <body>
+    <script src="짝맞추기.js">
+    </script>
+  </body>
+</html>
