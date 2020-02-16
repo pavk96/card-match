@@ -8,4 +8,6 @@
 
 	Because it's my privacy haha
 	
-	So you could see color card--*/
+	So you could see color card
+	
+	This is from Youtube Zerocho's almost clone code--*/
